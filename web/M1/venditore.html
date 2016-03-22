@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Venditore</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, AMM">
+        <meta name="description" content="Milestone 1 del progetto 2016 di AMM">
+        <meta name="author" content="Edoardo Azzaro">
     </head>
     <body>
-        <div>TODO write content</div>
+        <h1>Pagina Venditore</h1>
+        <h3>Inserisci in un nuovo prodotto</h3>
+        <form method="post" action="venditore.html">
+            <label for="oggetto">Nome Gioco</label>
+            <input name="oggetto" id="oggetto" type="text"/>
+            <label for="url">URL foto</label>
+            <input name="url" id="url" type="text"/>
+            <label for="descrizione">Descrizione Gioco</label>
+            <textarea rows=4 cols=20 name="descrizione" id="descrizione"></textarea>
+            <label for="prezzo">Prezzo Gioco €</label>
+            <input name="prezzo" id="prezzo" type="number"/>
+            <label for="quantita">Quantità del Gioco</label>
+            <input name="quantita" id="quantita" type="number"/>
+            <input type="submit" value="Inserisci"/>
+        </form>
+        <br />
+        <hr />
+        <br />
+        <nav>
+            <a href="descrizione.html">DESCRIZIONE</a><br />
+            <a href="login.html">LOGIN</a>
+        </nav>
     </body>
 </html>
