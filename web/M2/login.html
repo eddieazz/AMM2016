@@ -10,21 +10,37 @@
         <meta name="author" content="Edoardo Azzaro">
     </head>
     <body>
-        <h1>LOGIN</h1>
-        <form method="post" action="login.html">
-            <label for="utente">Nome utente</label>
-            <input name="utente" id="utente" type="text"/><br />
-            <label for="psw">Password</label>
-            <input name="psw" id="psw" type="password"/><br />
-            <input type="submit" value="Login"/>
-        </form>
-        <br />
-        <hr />
-        <br />
-        <nav>
-            <a href="descrizione.html">DESCRIZIONE</a><br />
-            <a href="venditore.html">VENDITORE</a><br />
-            <a href="cliente.html">CLIENTE</a>
-        </nav>
+        <div id="page">
+            <header>
+                <div id="header">
+                    <h1>Conundrum & Rubik</h1>
+                </div>
+            </header>
+            <div id="content">
+                <h1>LOGIN</h1>
+                <form method="post" action="login.html">
+                    <div class="riga">
+                        <label for="utente">Nome utente</label>
+                        <input name="utente" id="utente" type="text"/>
+                    </div>
+                    <div class="riga">
+                        <label for="psw">Password</label>
+                        <input name="psw" id="psw" type="password"/>
+                    </div><br />
+                    <input type="submit" value="Login"/>
+                </form>
+                <br />
+                <hr />
+                <br />
+                <nav>
+                    <a href="descrizione.html">DESCRIZIONE</a><br />
+                    <a href="venditore.html">VENDITORE</a><br />
+                    <a href="cliente.html">CLIENTE</a>
+                </nav>
+            </div>
+            <div id="footer">
+                <p>Progetto AMM 2016 - Autore: Edoardo Azzaro</p>
+            </div>
+        </div>
     </body>
 </html>
